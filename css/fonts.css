@@ -85,6 +85,9 @@
 .socicon-twitch:before {
   content: "\e08c";
 }
+.socicon-apple:before {
+  content: "\e008";
+}
 
 @font-face {
   font-family: 'fontello';
@@ -132,7 +135,7 @@
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
-
+.icon-apple:before { content: '\e9a5'; } /* 'î¦¥' */
 .icon-twitter-4:before { content: '\ee73'; } /* 'î¹³' */
 .icon-vimeo-1:before { content: '\ee75'; } /* 'î¹µ' */
 .icon-amazon:before { content: '\ee7e'; } /* 'î¹¾' */
@@ -140,7 +143,6 @@
 .icon-mail:before { content: '\e803'; } /* 'î ƒ' */
 .icon-mail-alt:before { content: '\e804'; } /* 'î „' */
 .icon-mail-squared:before { content: '\e805'; } /* 'î …' */
-.icon-search:before { content: '\e802'; } /* 'î ‚' */
 .icon-youtube:before { content: '\ea01'; } /* 'î¨' */
 .icon-youtube-squared:before { content: '\ea03'; } /* 'î¨ƒ' */
 .icon-youtube-play:before { content: '\ea04'; } /* 'î¨„' */
@@ -252,8 +254,6 @@
 .icon-instagram-filled:before { content: '\eeca'; } /* 'î»Š' */
 .icon-bandcamp:before { content: '\eed6'; } /* 'î»–' */
 .icon-music-3:before { content: '\eed9'; } /* 'î»™' */
-.icon-search-6:before { content: '\eeda'; } /* 'î»š' */
-.icon-search-circled:before { content: '\eedb'; } /* 'î»›' */
 .icon-mail-6:before { content: '\eedc'; } /* 'î»œ' */
 .icon-mail-circled:before { content: '\eedd'; } /* 'î»' */
 .icon-video-4:before { content: '\eee8'; } /* 'î»¨' */
@@ -318,10 +318,22 @@
 .icon-soundcloud-circled:before { content: '\ee02'; } /* 'î¸‚' */
 .icon-paypal-2:before { content: '\ee47'; } /* 'î¹‡' */
 .icon-music-4:before { content: '\efe7'; } /* 'î¿§' */
-.icon-search-7:before { content: '\efe8'; } /* 'î¿¨' */
 .icon-mail-7:before { content: '\efe9'; } /* 'î¿©' */
 .icon-shop-1:before { content: '\f013'; } /* 'ï€“' */
-.icon-search-8:before { content: '\f017'; } /* 'ï€—' */
+.icon-shop:before { content: '\ee38'; } /* 'î¸¸' */
 .icon-facebook-rect-2:before { content: '\f062'; } /* 'ï¢' */
 .icon-twitter-bird-2:before { content: '\f063'; } /* 'ï£' */
 .icon-vimeo-rect-1:before { content: '\f064'; } /* 'ï¤' */
+.icon-search:before { content: '\e802'; } /* 'î ‚' */
+.icon-search-1:before { content: '\ea0a'; } /* 'î¨Š' */
+.icon-search-outline:before { content: '\eb21'; } /* 'î¬¡' */
+.icon-search-2:before { content: '\eb22'; } /* 'î¬¢' */
+.icon-search-3:before { content: '\ec4b'; } /* 'î±‹' */
+.icon-search-4:before { content: '\ece2'; } /* 'î³¢' */
+.icon-search-5:before { content: '\ed6c'; } /* 'îµ¬' */
+.icon-search-6:before { content: '\eeda'; } /* 'î»š' */
+.icon-search-circled:before { content: '\eedb'; } /* 'î»›' */
+.icon-search-7:before { content: '\efe8'; } /* 'î¿¨' */
+.icon-search-8:before { content: '\f017'; } /* 'ï€—' */
+
+
